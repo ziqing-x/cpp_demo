@@ -2,7 +2,7 @@
  * @Author: xiongyi jassimxiong@gmail.com
  * @Date: 2023-12-14 11:06:16
  * @LastEditors: xiongyi jassimxiong@gmail.com
- * @LastEditTime: 2023-12-14 15:41:01
+ * @LastEditTime: 2023-12-14 16:01:48
  * @FilePath: /cpp_demo/readme.md
  * @Description: 
  * 
@@ -11,7 +11,7 @@
 <p align="center">
   <h3 align="center">CPP DEMO</h3>
   <p align="center">
-    这是一个采用cmake构建cpp代码的demo
+    这是一个使用cmake构建cpp代码的demo
   <br>
 </p>
 
@@ -60,8 +60,6 @@ make check # 静态检查代码，需要安装cppcheck， sudo apt install cppch
 ```
 ### 安装
 
-此项目采用systemctl以服务的形式管理，安装包是deb包。
-
 ```bash
 sudo dpkg -i build/cn.xxx.demo_1.0.0_amd64.deb
 ```
@@ -69,7 +67,7 @@ sudo dpkg -i build/cn.xxx.demo_1.0.0_amd64.deb
 ### 卸载
 
 ```bash
-sudo dpkg -r build/cn.xxx.demo_1.0.0_amd64.deb
+sudo dpkg -r com.xxx.demo
 ```
 
 ### 启动
