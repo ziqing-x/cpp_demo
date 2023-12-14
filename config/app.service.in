@@ -1,0 +1,19 @@
+##############################################################
+# sudo systemctl daemon-reload
+# 管理服务 [使能自启动|启动|停止|重启|查看状态]
+# sudo systemctl [enable|start|stop|restart|status] xxx.service
+###############################################################
+
+[Unit]
+Description=xxx服务
+After=network.target npreal2.service
+
+[Service]
+Type=simple
+WorkingDirectory=@APP_ROOT_DIR@
+KillMode=process
+Restart=on-failure
+ExecStart=@APP_ROOT_DIR@/bin/@APP_NAME@
+
+[Install]
+WantedBy=multi-user.target
