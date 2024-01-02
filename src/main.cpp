@@ -2,15 +2,16 @@
  * @Author: 熊义 JassimXiong@gmail.com
  * @Date: 2023-10-17 12:24:06
  * @LastEditors: xiongyi jassimxiong@gmail.com
- * @LastEditTime: 2023-12-14 15:41:08
+ * @LastEditTime: 2024-01-02 17:36:47
  * @FilePath: /cpp_demo/src/main.cpp
  * @Description:
  *
  * Copyright (c) 2023 xxx, 版权所有
  */
 #include "application.h"
-#include "config.h"
 #include "logger.h"
+#include "manifest_manager.h"
+#include "singleton.h"
 
 #define BLUE "\033[;34m"  // 蓝色
 #define GREE "\033[;32m"  // 绿色
@@ -19,7 +20,7 @@
 #define RESET "\033[0m\n" // 结束
 
 void print_info() {
-    auto &manifest = CONFIG.get_manifest_config();
+    auto &manifest = Singleton<ManifestManager>::instance().get_manifest();
     // clang-format off
     LOGI("\n"
         GREE "                   __                              " RESET

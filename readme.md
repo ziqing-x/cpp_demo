@@ -2,7 +2,7 @@
  * @Author: xiongyi jassimxiong@gmail.com
  * @Date: 2023-12-14 11:06:16
  * @LastEditors: xiongyi jassimxiong@gmail.com
- * @LastEditTime: 2023-12-14 16:01:48
+ * @LastEditTime: 2024-01-02 17:38:00
  * @FilePath: /cpp_demo/readme.md
  * @Description: 
  * 
@@ -33,7 +33,7 @@
 ```bash
 .
 ├── cmake                   # cmake模块化代码:
-├── config                  # 配置文件:
+├── infile                  # 配置文件模板:
 │   ├── app.conf.in         # 应用配置文件
 │   └── app.service.in      # 服务配置文件
 └── src                     # 源码:
