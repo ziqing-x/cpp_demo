@@ -1,14 +1,3 @@
 {
-    "manifest":
-    {
-        "pkg_name": "@PKG_NAME@",
-        "app_name": "@APP_NAME@",
-        "service": "@SERVICE@",
-        "version": "@VERSION@",
-        "arch": "@ARCH@",
-        "platform": "@PLATFORM@",
-        "build_date": "@BUILD_DATE@",
-        "git_hash": "@GIT_HASH@",
-        "description": "@DESCRIPTION@"
-    }
+    "mqtt_broker":"mqtt://8.8.8.8:11883"
 }

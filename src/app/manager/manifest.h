@@ -2,11 +2,11 @@
  * @Author: 熊义 JassimXiong@gmail.com
  * @Date: 2023-10-16 16:10:00
  * @LastEditors: xiongyi jassimxiong@gmail.com
- * @LastEditTime: 2023-12-27 16:24:48
- * @FilePath: /nest/src/app/common/manifest.h
+ * @LastEditTime: 2024-01-03 15:11:23
+ * @FilePath: /cpp_demo/src/app/manager/manifest.h
  * @Description:
  *
- * Copyright (c) 2023 中国科学院自动化研究所广东人工智能与先进计算研究院, 版权所有
+ * Copyright (c) 2023 xxx, 版权所有
  */
 #ifndef __MANIFEST_H__
 #define __MANIFEST_H__

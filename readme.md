@@ -2,7 +2,7 @@
  * @Author: xiongyi jassimxiong@gmail.com
  * @Date: 2023-12-14 11:06:16
  * @LastEditors: xiongyi jassimxiong@gmail.com
- * @LastEditTime: 2024-01-02 17:38:00
+ * @LastEditTime: 2024-01-03 15:12:13
  * @FilePath: /cpp_demo/readme.md
  * @Description: 
  * 
@@ -61,7 +61,7 @@ make check # 静态检查代码，需要安装cppcheck， sudo apt install cppch
 ### 安装
 
 ```bash
-sudo dpkg -i build/cn.xxx.demo_1.0.0_amd64.deb
+sudo dpkg -i build/com.xxx.demo_1.0.0_amd64.deb
 ```
 
 ### 卸载
@@ -75,8 +75,8 @@ sudo dpkg -r com.xxx.demo
 ```bash
 每次安装完.deb包后运行如下命令
 sudo systemctl daemon-reload
-sudo systemctl enable nest.service # 自启动
-sudo systemctl disable nest.service # 禁止自启动
+sudo systemctl enable demo.service # 自启动
+sudo systemctl disable demo.service # 禁止自启动
 ```
 
 ***

@@ -1,9 +1,9 @@
 /*
  * @Author: xiongyi jassimxiong@gmail.com
- * @Date: 2023-12-27 17:26:33
+ * @Date: 2023-12-27 17:26:3
  * @LastEditors: xiongyi jassimxiong@gmail.com
- * @LastEditTime: 2024-01-02 17:20:01
- * @FilePath: /nest/src/app/manager/manifest_manager.cpp
+ * @LastEditTime: 2024-01-03 15:11:39
+ * @FilePath: /cpp_demo/src/app/manager/manifest_manager.cpp
  * @Description:
  *
  * Copyright (c) 2023 广东人工智能与先进计算研究院, 版权所有
