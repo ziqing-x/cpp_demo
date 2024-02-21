@@ -6,7 +6,7 @@
 
 [Unit]
 Description=xxx服务
-After=network.target npreal2.service
+After=network.target
 
 [Service]
 Type=simple
